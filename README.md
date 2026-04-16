@@ -234,6 +234,40 @@ Multi-role fitness SaaS with real-time trainer-client management, streak analyti
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🧼 dpdpa-pii-scrubber
+> *Redaction for Bharat-native PII patterns*
+
+A zero-dependency Python utility and library to identify and redact Aadhaar, PAN, UPI, and other sensitive identifiers critical for DPDP compliance.
+
+**Capabilities:**
+- 🔍 High-precision India-native Regex engine
+- 🛡️ Supports Aadhaar, PAN, UPI, IFSC, Passport
+- ⚡ Sub-millisecond local processing
+- 📦 Zero external dependencies
+
+[![View Project](https://img.shields.io/badge/View_Project-7C3AED?style=flat-square&logo=github&logoColor=white)](https://github.com/TheIndicSentinel/dpdpa-pii-scrubber)
+
+</td>
+<td width="50%" valign="top">
+
+### 📖 Awesome AI Governance Bharat
+> *The central resource hub for Indian AI safety*
+
+A curated index of laws, frameworks, tools, and research papers focused on building Responsible and Compliant AI within the Indian ecosystem.
+
+**Capabilities:**
+- 🏛️ Curated DPDP / IT Act legal frameworks
+- ⚖️ RBI / SEBI AI governance guidelines
+- 🛠️ Open-source safety tool directory
+- 📊 Indigenous high-quality datasets
+
+[![View Project](https://img.shields.io/badge/View_Project-06B6D4?style=flat-square&logo=github&logoColor=white)](https://github.com/TheIndicSentinel/awesome-ai-governance-bharat)
+
+</td>
+</tr>
 </table>
 
 ---
