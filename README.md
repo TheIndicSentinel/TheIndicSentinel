@@ -4,7 +4,7 @@
 
 <!-- BANNER -->
 <div align="center">
-  <img src="assets/banner.png" alt="KavachX — India's AI Governance Infrastructure" width="100%" style="max-height:260px;object-fit:cover;" />
+  <img src="assets/banner.png" alt="KavachX — India's AI Governance Infrastructure" width="100%" style="max-height:180px;object-fit:cover;" />
 </div>
 
 <!-- ANIMATED TYPING SVG -->
@@ -32,7 +32,7 @@
 <tr>
 <td width="58%" valign="top">
 
-I'm **Malik** — an AI/ML Engineer and Governance Architect based in **Bharat 🇮🇳**, building the trust infrastructure that responsible AI demands.
+I'm **Mallikarjun Rao** — an AI/ML Engineer and Governance Architect based in **Bharat 🇮🇳**, building the trust infrastructure that responsible AI demands.
 
 I started as a full-stack engineer, but the deeper I went into deploying AI in production — for fintech, HR, and healthtech — the clearer one thing became: **enforcement was missing**. Every system was intelligent. None were accountable.
 
@@ -51,29 +51,26 @@ That realization became **KavachX** — India's first real-time AI governance en
 
 ```python
 class TheIndicSentinel:
+    
+    def __init__(self):
+        self.name     = "Mallikarjun Rao"
+        self.role     = "AI Governance Architect"
+        self.location = "Bharat 🇮🇳"
+        self.mission  = "Digital Armor for AI"
 
-  name     = "Malik"
-  role     = "AI Governance Architect"
-  location = "Bharat 🇮🇳"
-  mission  = "Digital Armor for AI"
+        self.law_stack = [
+            "DPDP Act 2023",
+            "IT Act 2000",
+            "AI Accountability Norms"
+        ]
 
-  law_stack = [
-    "DPDP Act 2023",
-    "IT Act 2000",
-    "AI Accountability Norms"
-  ]
+        self.tech_stack = [
+            "Python", "FastAPI", "Docker",
+            "PyTorch", "React", "PostgreSQL"
+        ]
 
-  tech_stack = [
-    "Python", "FastAPI",
-    "PyTorch", "React",
-    "Docker", "PostgreSQL"
-  ]
-
-  def philosophy(self):
-    return (
-      "Not just intelligent."
-      " Accountable."
-    )
+    def philosophy(self):
+        return "Not just intelligent. Accountable."
 ```
 
 </td>
@@ -137,7 +134,9 @@ From headless **API middleware** to **browser-level interception** — governanc
 <!-- ─── GOVERNANCE ARCHITECTURE ────────────────────────────────── -->
 ## 🏛️ Governance Architecture: 4 Enforcement Gates
 
-```
+<div align="center">
+
+```text
                     ┌─────────────────────────────────────────┐
                     │         AI MODEL (LLM / ML System)       │
                     └──────────────────┬──────────────────────┘
@@ -157,6 +156,8 @@ From headless **API middleware** to **browser-level interception** — governanc
                     │              END USER / CLIENT            │
                     └─────────────────────────────────────────┘
 ```
+
+</div>
 
 ---
 
