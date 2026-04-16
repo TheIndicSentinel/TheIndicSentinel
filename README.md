@@ -4,7 +4,7 @@
 
 <!-- BANNER -->
 <div align="center">
-  <img src="assets/banner.png" alt="KavachX — India's AI Governance Infrastructure" width="100%" style="max-height:180px;object-fit:cover;" />
+  <img src="assets/banner.png" alt="KavachX — India's AI Governance Infrastructure" width="100%" style="max-height:220px;object-fit:cover;" />
 </div>
 
 <!-- ANIMATED TYPING SVG -->
@@ -45,7 +45,7 @@ That realization became **KavachX** — India's first real-time AI governance en
 - 🇮🇳 Building **for Bharat** — not adapting what the West built
 
 </td>
-<td width="42%" valign="top" align="center">
+<td width="42%" valign="top" align="left">
 
 <br/>
 
@@ -366,9 +366,9 @@ Q2 2026  ───────────────────────�
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-linkedin)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mallikarjun-r-6159b5333/)
 &nbsp;
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:inerd1412@gmail.com)
 &nbsp;
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TheIndicSentinel)
 
