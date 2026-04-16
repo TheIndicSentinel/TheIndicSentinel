@@ -138,9 +138,9 @@ From headless **API middleware** to **browser-level interception** — governanc
 ---
 
 <!-- ─── GOVERNANCE ARCHITECTURE ────────────────────────────────── -->
-<div align="center">
-
 ## 🏛️ Governance Architecture: 4 Enforcement Gates
+
+<div align="center">
 
 ```
                     ┌─────────────────────────────────────────┐
