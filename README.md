@@ -15,6 +15,8 @@
 
 <br/>
 
+[![Profile Views](https://komarev.com/ghpvc/?username=TheIndicSentinel&style=for-the-badge&color=7C3AED&label=PROFILE+VIEWS&labelColor=0D0F1A)](https://github.com/TheIndicSentinel)
+&nbsp;
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:inerd1412@gmail.com)
 &nbsp;
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mallikarjun-r-6159b5333/)
@@ -43,7 +45,7 @@ That realization became **KavachX** — India's first real-time AI governance en
 - 🇮🇳 Building **for Bharat** — not adapting what the West built
 
 </td>
-<td width="42%" valign="top" align="center">
+<td width="42%" valign="top" align="left">
 
 <br/>
 
@@ -126,7 +128,10 @@ From headless **API middleware** to **browser-level interception** — governanc
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 
 </div>
 
@@ -182,6 +187,40 @@ Real-time governance platform acting as the **middle-layer for AI interactions**
 </td>
 <td width="50%" valign="top">
 
+### 🧼 dpdpa-pii-scrubber
+> *Redaction for Bharat-native PII patterns*
+
+A zero-dependency Python utility and library to identify and redact Aadhaar, PAN, UPI, and other sensitive identifiers critical for DPDP compliance.
+
+**Capabilities:**
+- 🔍 High-precision India-native Regex engine
+- 🛡️ Supports Aadhaar, PAN, UPI, IFSC, Passport
+- ⚡ Sub-millisecond local processing
+- 📦 Zero external dependencies
+
+[![View Project](https://img.shields.io/badge/View_Project-7C3AED?style=flat-square&logo=github&logoColor=white)](https://github.com/TheIndicSentinel/dpdpa-pii-scrubber)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📖 Awesome AI Governance Bharat
+> *The central resource hub for Indian AI safety*
+
+A curated index of laws, frameworks, tools, and research papers focused on building Responsible and Compliant AI within the Indian ecosystem.
+
+**Capabilities:**
+- 🏛️ Curated DPDP / IT Act legal frameworks
+- ⚖️ RBI / SEBI AI governance guidelines
+- 🛠️ Open-source safety tool directory
+- 📊 Indigenous high-quality datasets
+
+[![View Project](https://img.shields.io/badge/View_Project-06B6D4?style=flat-square&logo=github&logoColor=white)](https://github.com/TheIndicSentinel/awesome-ai-governance-bharat)
+
+</td>
+<td width="50%" valign="top">
+
 ### 🗣️ VyaparGPT — Bharat SME Intelligence
 > *Business intelligence for India's 63 million SMEs*
 
@@ -191,43 +230,8 @@ LLM-powered bilingual assistant enabling Indian traders to query inventory, sale
 - 🗣️ Hindi + English NLP query interface
 - 📈 AI-driven sales & inventory insights
 - 🇮🇳 Tailored for the Bharat SME market
-- ⚡ Context-aware business analytics
 
 [![View Project](https://img.shields.io/badge/View_Project-06B6D4?style=flat-square&logo=github&logoColor=white)](https://github.com/TheIndicSentinel/vyapar_gpt)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 📋 PO CoPilot — AI Procurement
-> *AI assistant for enterprise procurement workflows*
-
-Streamlit-based AI assistant for PO validation, change impact analysis, and approval summary automation — aligned with SAP BTP patterns.
-
-**Capabilities:**
-- 🔍 Multi-field PO validation & risk flagging
-- 📋 Automated approval summaries
-- ☁️ SAP BTP-aligned architecture
-- 🤖 AI-powered change impact analysis
-
-[![View Project](https://img.shields.io/badge/View_Project-F59E0B?style=flat-square&logo=github&logoColor=white)](https://github.com/TheIndicSentinel/PO-Copilot)
-
-</td>
-<td width="50%" valign="top">
-
-### 💪 Mpower Fitness Platform
-> *SaaS infrastructure for the fitness economy*
-
-Multi-role fitness SaaS with real-time trainer-client management, streak analytics, and indigenous UPI payment deep-links.
-
-**Capabilities:**
-- 💬 Real-time chat via Socket.IO
-- 📊 Streak tracking & activity analytics
-- 💳 UPI deep-link payment ecosystem
-- 🏋️ Scalable Node.js / PostgreSQL backend
-
-[![View Project](https://img.shields.io/badge/View_Project-10B981?style=flat-square&logo=github&logoColor=white)](https://github.com/TheIndicSentinel/mpowerfitness)
 
 </td>
 </tr>
