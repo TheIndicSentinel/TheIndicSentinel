@@ -138,6 +138,8 @@ From headless **API middleware** to **browser-level interception** — governanc
 ---
 
 <!-- ─── GOVERNANCE ARCHITECTURE ────────────────────────────────── -->
+<div align="center">
+
 ## 🏛️ Governance Architecture: 4 Enforcement Gates
 
 ```
@@ -160,6 +162,8 @@ From headless **API middleware** to **browser-level interception** — governanc
                     │              END USER / CLIENT            │
                     └─────────────────────────────────────────┘
 ```
+
+</div>
 
 ---
 
@@ -286,15 +290,11 @@ Q2 2026  ───────────────────────�
 
 ---
 
-<!-- ─── CONTRIBUTION SNAKE ────────────────────────────────────── -->
-## 🐍 Contribution Activity
+<!-- ─── CONTRIBUTION ACTIVITY ─────────────────────────────────── -->
+## 📊 Contribution Activity
 
 <div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TheIndicSentinel/TheIndicSentinel/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TheIndicSentinel/TheIndicSentinel/output/github-contribution-grid-snake.svg" />
-  <img alt="contribution snake animation" src="https://raw.githubusercontent.com/TheIndicSentinel/TheIndicSentinel/output/github-contribution-grid-snake.svg" />
-</picture>
+  <img src="https://github-readme-stats.vercel.app/api/github-contribution-graph?username=TheIndicSentinel&theme=tokyonight&hide_border=true&background=0D0F1A" alt="TheIndicSentinel GitHub contribution graph" />
 </div>
 
 ---
@@ -303,7 +303,7 @@ Q2 2026  ───────────────────────�
 ## 🏆 Achievements
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=TheIndicSentinel&theme=discord&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" />
+  <img src="https://github-profile-trophy.vercel.app/?username=TheIndicSentinel&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" />
 </div>
 
 ---
