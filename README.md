@@ -32,7 +32,7 @@
 <tr>
 <td width="58%" valign="top">
 
-I'm **Malik** — an AI/ML Engineer and Governance Architect based in **Bharat 🇮🇳**, building the trust infrastructure that responsible AI demands.
+I'm **Arjun** — an AI/ML Engineer and Governance Architect based in **Bharat 🇮🇳**, building the trust infrastructure that responsible AI demands.
 
 I started as a full-stack engineer, but the deeper I went into deploying AI in production — for fintech, HR, and healthtech — the clearer one thing became: **enforcement was missing**. Every system was intelligent. None were accountable.
 
