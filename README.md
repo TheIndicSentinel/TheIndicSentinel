@@ -52,7 +52,7 @@ That realization became **KavachX** — India's first real-time AI governance en
 ```python
 class TheIndicSentinel:
 
-  name     = "Malik"
+  name     = "Arjun"
   role     = "AI Governance Architect"
   location = "Bharat 🇮🇳"
   mission  = "Digital Armor for AI"
