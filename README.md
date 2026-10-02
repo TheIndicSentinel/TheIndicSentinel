@@ -1,22 +1,14 @@
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--                    KAVACHX PROFILE README                  -->
-<!-- ═══════════════════════════════════════════════════════════ -->
-
-<!-- BANNER -->
 <div align="center">
-  <img src="assets/banner.png" alt="KavachX — India's AI Governance Infrastructure" width="100%" style="max-height:260px;object-fit:cover;" />
+  <img src="assets/banner.png" alt="Kavach — authorization and runtime control for AI agents" width="100%" style="max-height:260px;object-fit:cover;" />
 </div>
 
-<!-- ANIMATED TYPING SVG -->
 <div align="center">
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=800&color=7C3AED&center=true&vCenter=true&width=860&lines=🛡️+Architecting+the+Governance+Layer+for+India's+AI+Future;⚡+Real-time+Policy+Enforcement+at+Inference+Speed;🔒+DPDP+%7C+IT+Act+%7C+AI+Accountability+—+Enforced+in+Code;🧬+ML-Native+Safety+Classifiers+%7C+Immutable+Audit+Chains;🇮🇳+Building+Bharat's+Digital+Armor+—+One+Inference+at+a+Time)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=800&color=7C3AED&center=true&vCenter=true&width=860&lines=🛡️+No+credential+unless+authorised+—+for+AI+agents;🧾+Signed+evidence+recorded+before+anything+runs;🔒+Privacy-first.+On-prem.+Open+source.;🇮🇳+Built+in+Bharat%2C+for+regulated+lenders)](https://git.io/typing-svg)
 
 <br/>
 
-[![Profile Views](https://komarev.com/ghpvc/?username=TheIndicSentinel&style=for-the-badge&color=7C3AED&label=PROFILE+VIEWS&labelColor=0D0F1A)](https://github.com/TheIndicSentinel)
-&nbsp;
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:inerd1412@gmail.com)
 &nbsp;
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mallikarjun-r-6159b5333/)
@@ -25,55 +17,34 @@
 
 ---
 
-<!-- ─── ABOUT ME ─────────────────────────────────────────────── -->
 ## ⚡ The Architect
 
 <table>
 <tr>
 <td width="58%" valign="top">
 
-I'm **Arjun** — an AI/ML Engineer and Governance Architect based in **Bharat 🇮🇳**, building the trust infrastructure that responsible AI demands.
+I'm **Arjun** — an AI/ML engineer and governance architect in **Bharat 🇮🇳**, building the trust infrastructure responsible AI needs.
 
-I started as a full-stack engineer, but the deeper I went into deploying AI in production — for fintech, HR, and healthtech — the clearer one thing became: **enforcement was missing**. Every system was intelligent. None were accountable.
+Deploying AI for fintech, HR and healthtech made one thing clear: **enforcement was missing**. Systems were intelligent; none were accountable.
 
-That realization became **KavachX** — India's first real-time AI governance engine that treats compliance not as a checkbox, but as an engineering primitive.
+That became **Kavach**: authorization for AI agents and automated decisions, where authority comes from a business event, not from a model.
 
 **What drives me:**
 - 🏛️ AI that is **accountable** to the people it affects
-- ⚖️ Digital laws that are **enforced in code**, not just paper
-- 🔬 Safety systems that understand **context**, not just keywords
-- 🇮🇳 Building **for Bharat** — not adapting what the West built
+- ⚖️ Rules **enforced in code**, not just on paper
+- 🔒 **Less data collected**, more user control
+- 🇮🇳 Building **for Bharat**, not adapting what others built
 
 </td>
-<td width="42%" valign="top" align="left">
+<td width="42%" valign="top">
 
-<br/>
-
-```python
-class TheIndicSentinel:
-
-  name     = "Arjun"
-  role     = "AI Governance Architect"
-  location = "Bharat 🇮🇳"
-  mission  = "Digital Armor for AI"
-
-  law_stack = [
-    "DPDP Act 2023",
-    "IT Act 2000",
-    "AI Accountability Norms"
-  ]
-
-  tech_stack = [
-    "Python", "FastAPI",
-    "PyTorch", "React",
-    "Docker", "PostgreSQL"
-  ]
-
-  def philosophy(self):
-    return (
-      "Not just intelligent."
-      " Accountable."
-    )
+```rust
+struct TheIndicSentinel {
+    name: "Arjun",
+    mission: "Digital armor for AI",
+    now: "Kavach (Rust core)",
+    principle: "Not just intelligent. Accountable.",
+}
 ```
 
 </td>
@@ -82,303 +53,90 @@ class TheIndicSentinel:
 
 ---
 
-<!-- ─── KAVACHX FLAGSHIP ──────────────────────────────────────── -->
-## ⚡ KavachX — The Enforcement Engine
+## 🛡️ Kavach — Current State
+
+> Authorization and runtime control for AI agents. Free and open source (Apache-2.0). **Pre-release: not production-ready, no external security review yet.**
+
+An agent should not hold the credential to act unless it is authorised to act. Every action needs a signed **Task Mandate** issued from a system-of-record event, is checked against Cedar policy, trusted time and server-side counters, is recorded as signed evidence **before** it runs, and only then gets a short-lived credential bound to that exact request.
+
+| Area | Status |
+|---|---|
+| Task Mandates (issue, delegate, revoke) | ✅ |
+| Cedar agent policies, formally analysed in CI (cvc5) | ✅ |
+| Signed tool registry, reference-only parameters | ✅ |
+| Signed, hash-chained evidence, committed before execution | ✅ |
+| Short-lived credentials (JWS in JWE, ≤ 15 s) | ✅ |
+| Gateway, acceptance suite, network isolation (deployed stack) | ✅ built, still pre-release |
+| Signed evidence checkpoints, export, offline verifier | 🚧 in progress |
+| Developer CLI: `kavach init`, `demo`, `authorize`, `why`, `attack` | 🗺️ v0.1 preview |
 
 <div align="center">
 
-> **KavachX** is not a library. It is not a tool.
-> It is a **governance infrastructure** — the policy firewall that stands between AI models and the real world.
-
-</div>
-
-<table>
-<tr>
-<td width="25%" align="center">
-
-### 🔍 Real-Time Interception
-Every inference intercepted, analyzed across **composite risk dimensions**, and scored before a token reaches the user.
-
-</td>
-<td width="25%" align="center">
-
-### 🧬 ML-Native Safety
-Custom-trained classifiers built for **Indian linguistic context** — understanding nuance, intent, and domain-specific harm.
-
-</td>
-<td width="25%" align="center">
-
-### 📜 Audit Integrity
-**Immutable audit chains** with cryptographic logging. Every decision timestamped and surfaced on a live compliance dashboard.
-
-</td>
-<td width="25%" align="center">
-
-### 🌐 Ubiquitous Layer
-From headless **API middleware** to **browser-level interception** — governance woven into the fabric, not bolted on.
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-[![KavachX Repo](https://img.shields.io/badge/🛡️_KavachX_Governance_Engine-Explore_the_Codebase-7C3AED?style=for-the-badge&labelColor=0D0F1A)](https://github.com/TheIndicSentinel/kavachxv2)
+[![Kavach Repo](https://img.shields.io/badge/🛡️_Kavach-Explore_the_Codebase-7C3AED?style=for-the-badge&labelColor=0D0F1A)](https://github.com/TheIndicSentinel/Kavach)
 &nbsp;
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 
 </div>
 
----
-
-<!-- ─── GOVERNANCE ARCHITECTURE ────────────────────────────────── -->
-## 🏛️ Governance Architecture: 4 Enforcement Gates
-
-<div align="center">
-
 ```
-                    ┌─────────────────────────────────────────┐
-                    │         AI MODEL (LLM / ML System)       │
-                    └──────────────────┬──────────────────────┘
-                                       │  Inference Request
-                                       ▼
-        ╔══════════════════════════════════════════════════════╗
-        ║              K A V A C H X   E N G I N E            ║
-        ║──────────────────────────────────────────────────────║
-        ║  Gate 1: 🔐 Security    │  Prompt Injection / NAEL   ║
-        ║  Gate 2: 🧬 Safety      │  Hate, Bias, Harm Scoring  ║
-        ║  Gate 3: 📋 Compliance  │  DPDP PII / IT Act Check   ║
-        ║  Gate 4: 📊 Audit       │  Immutable Log + Dashboard ║
-        ╚══════════════════════════════════════════════════════╝
-                                       │  Governed Response
-                                       ▼
-                    ┌─────────────────────────────────────────┐
-                    │              END USER / CLIENT            │
-                    └─────────────────────────────────────────┘
-```
-
-</div>
-
----
-
-<!-- ─── FEATURED PROJECTS ─────────────────────────────────────── -->
-## 🚀 Featured Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🛡️ KavachX — AI Governance Engine
-> *The enforcement layer for production AI in Bharat*
-
-Real-time governance platform acting as the **middle-layer for AI interactions**. Composite risk scoring, ML-native safety classifiers, and an immutable compliance audit chain.
-
-**Capabilities:**
-- ⚡ Sub-100ms inference risk scoring
-- 🔒 DPDP / IT Act compliance enforcement
-- 🧬 Fine-tuned domain safety classifiers
-- 🌐 Browser-level AI interception (Chrome)
-- 📊 Live executive compliance dashboard
-
-[![View Project](https://img.shields.io/badge/View_Project-7C3AED?style=flat-square&logo=github&logoColor=white)](https://github.com/TheIndicSentinel/kavachxv2)
-
-</td>
-<td width="50%" valign="top">
-
-### 🧼 dpdpa-pii-scrubber
-> *Redaction for Bharat-native PII patterns*
-
-A zero-dependency Python utility and library to identify and redact Aadhaar, PAN, UPI, and other sensitive identifiers critical for DPDP compliance.
-
-**Capabilities:**
-- 🔍 High-precision India-native Regex engine
-- 🛡️ Supports Aadhaar, PAN, UPI, IFSC, Passport
-- ⚡ Sub-millisecond local processing
-- 📦 Zero external dependencies
-
-[![View Project](https://img.shields.io/badge/View_Project-7C3AED?style=flat-square&logo=github&logoColor=white)](https://github.com/TheIndicSentinel/dpdpa-pii-scrubber)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 📖 Awesome AI Governance Bharat
-> *The central resource hub for Indian AI safety*
-
-A curated index of laws, frameworks, tools, and research papers focused on building Responsible and Compliant AI within the Indian ecosystem.
-
-**Capabilities:**
-- 🏛️ Curated DPDP / IT Act legal frameworks
-- ⚖️ RBI / SEBI AI governance guidelines
-- 🛠️ Open-source safety tool directory
-- 📊 Indigenous high-quality datasets
-
-[![View Project](https://img.shields.io/badge/View_Project-06B6D4?style=flat-square&logo=github&logoColor=white)](https://github.com/TheIndicSentinel/awesome-ai-governance-bharat)
-
-</td>
-<td width="50%" valign="top">
-
-### 🗣️ VyaparGPT — Bharat SME Intelligence
-> *Business intelligence for India's 63 million SMEs*
-
-LLM-powered bilingual assistant enabling Indian traders to query inventory, sales, and business health in natural language — Hindi or English.
-
-**Capabilities:**
-- 🗣️ Hindi + English NLP query interface
-- 📈 AI-driven sales & inventory insights
-- 🇮🇳 Tailored for the Bharat SME market
-
-[![View Project](https://img.shields.io/badge/View_Project-06B6D4?style=flat-square&logo=github&logoColor=white)](https://github.com/TheIndicSentinel/vyapar_gpt)
-
-</td>
-</tr>
-</table>
-
----
-
-<!-- ─── ROADMAP ────────────────────────────────────────────────── -->
-## 🗺️ Active Roadmap: The Next Frontier
-
-```
-Q2 2026  ──────────────────────────────────────────────────────────►
-│
-├── 🧬  Bhasha-Shield
-│       High-speed safety filter for Indian languages (Indic-NLP)
-│       Detecting prompt injection in Hindi, Tamil, Bengali, Telugu
-│
-├── 🔐  PrivacyConnect SDK
-│       Lightweight middleware bridging LLM agents with India Stack
-│       Account Aggregator + ONDC in a DPDP-compliant wrapper
-│
-├── 📦  DPDPA-Masker (OSS Package)
-│       Pip-installable PII redaction for Indian data patterns
-│       Targets: Aadhaar, PAN, UPI IDs, Indian phone formats
-│
-└── 📊  Governance-as-Code
-        Terraform provider for AI safety policies
-        Automate compliance across cloud environments at scale
+ Agent ──► Gateway ──► Mandate ► Cedar policy ► Trusted time ► Counters
+                          │
+                          ▼
+              Signed evidence (before action)
+                          │
+                          ▼
+        Short-lived credential ──► Provider ──► Signed outcome
 ```
 
 ---
 
-<!-- ─── GITHUB STATS ───────────────────────────────────────────── -->
-## 📊 Intelligence Dashboard
+## 🗺️ Roadmap
 
-<div align="center">
+| Phase | Focus |
+|---|---|
+| **Now** | Evidence checkpoints, export and offline verification |
+| **v0.1 preview** | Developer CLI first: `kavach init`, `demo`, offline `authorize`, `why`, `attack`; supply-chain hardening, benchmarks, fuzzing, open KMS/HSM adapter |
+| **v0.2** | `kavach studio` terminal UI (read-only, no telemetry) |
+| **Later** | Approvals and step-up, taint tracking, MCP adapter, RBI/DPDP evidence packs, multi-tenant and HA reference, external security review |
 
-<table border="0">
-  <tr>
-    <td align="center">
-      <img height="175" src="https://github-readme-stats.vercel.app/api?username=TheIndicSentinel&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github&title_color=7C3AED&icon_color=06B6D4&text_color=E2E8F0&bg_color=0D0F1A" />
-    </td>
-    <td align="center">
-      <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TheIndicSentinel&layout=compact&theme=tokyonight&hide_border=true&langs_count=7&card_width=310&title_color=7C3AED&text_color=E2E8F0&bg_color=0D0F1A" />
-    </td>
-  </tr>
-</table>
+## 🔭 Vision
 
-<img width="720" src="https://streak-stats.demolab.com?user=TheIndicSentinel&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=720&background=0D0F1A&ring=7C3AED&fire=F59E0B&currStreakLabel=06B6D4" />
-
-</div>
+An open, auditable control layer between AI agents and the systems they touch, so regulated Indian lenders can **prove** what an agent was allowed to do and why. Security properties stay free; an optional enterprise plane (fleet management, SSO, audit-export packs) lives in a separate repo. See [OPEN_CORE.md](https://github.com/TheIndicSentinel/Kavach/blob/main/OPEN_CORE.md).
 
 ---
 
-<!-- ─── CONTRIBUTION ACTIVITY ─────────────────────────────────── -->
-## 📊 Contribution Activity
+## 🚀 Other Projects
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/github-contribution-graph?username=TheIndicSentinel&theme=tokyonight&hide_border=true&background=0D0F1A" alt="TheIndicSentinel GitHub contribution graph" />
-</div>
+| Project | What it is |
+|---|---|
+| [KavachX v2](https://github.com/TheIndicSentinel/kavachxv2) | Earlier Python governance engine: risk scoring, safety classifiers, audit chain |
+| [dpdpa-pii-scrubber](https://github.com/TheIndicSentinel/dpdpa-pii-scrubber) | Zero-dependency redaction of Aadhaar, PAN, UPI, IFSC and other Indian identifiers |
+| [Awesome AI Governance Bharat](https://github.com/TheIndicSentinel/awesome-ai-governance-bharat) | Curated laws, frameworks, tools and research for Indian AI governance |
+| [VyaparGPT](https://github.com/TheIndicSentinel/vyapar_gpt) | Hindi and English assistant for Indian SMEs |
 
----
-
-<!-- ─── TROPHIES ───────────────────────────────────────────────── -->
-## 🏆 Achievements
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=TheIndicSentinel&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" />
-</div>
-
----
-
-<!-- ─── TECH STACK ────────────────────────────────────────────── -->
 ## 🛠️ Arsenal
 
 <div align="center">
 
-**Core Engineering**&nbsp;&nbsp;
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-
-**ML / AI Governance**&nbsp;&nbsp;
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/🤗_HuggingFace-FFD21E?style=for-the-badge&logoColor=black)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-
-**Frontend & Interfaces**&nbsp;&nbsp;
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-
-**Infrastructure & Data**&nbsp;&nbsp;
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 
 </div>
 
 ---
 
-<!-- ─── CURRENT FOCUS ──────────────────────────────────────────── -->
-## 🔭 Current Focus
-
 <div align="center">
 
-| Initiative | Status | Description |
-|:---|:---:|:---|
-| 🛡️ KavachX v3.6 — ML Hardening | 🟢 Active | Fine-tuning domain safety classifiers for general AI safety |
-| 📋 DPDP Compliance Engine | 🟢 Active | Tightening PII detection with Bharat-native data patterns |
-| 🧬 Bhasha-Shield (Indic NLP) | 🟡 Research | Multilingual safety filter for Indian dialect prompt attacks |
-| 📦 DPDPA-Masker OSS Package | 🔵 Planned | Public pip package for DPDP-aligned PII redaction |
-| ✍️ Technical Blog | 🔵 Planned | Engineering deep-dives on AI governance architecture |
+*Building in public. Reach out if you work on AI safety, Indian AI policy or responsible ML infrastructure.*
 
-</div>
-
----
-
-<!-- ─── CONNECT ────────────────────────────────────────────────── -->
-## 📡 Connect
-
-<div align="center">
-
-*Building in public. Reach out if you're working on AI safety, Indian AI policy, or responsible ML infrastructure.*
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mallikarjun-r-6159b5333/)
-&nbsp;
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:inerd1412@gmail.com)
-&nbsp;
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TheIndicSentinel)
-
-<br/>
-
----
-
-<sub>
-  <b>🛡️ KavachX</b> — Policy-Aligned AI Infrastructure for Bharat &nbsp;·&nbsp; Built with conviction in 🇮🇳 India
-</sub>
+<sub><b>🛡️ Kavach</b> — Accountable AI infrastructure · Built with conviction in 🇮🇳 India</sub>
 
 </div>
